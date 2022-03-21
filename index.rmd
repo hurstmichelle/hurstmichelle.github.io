@@ -1,0 +1,31 @@
+---
+title: "Michelle A. Hurst"
+---
+
+```{r echo = FALSE}
+library(fontawesome)
+```
+
+
+::: {.floatting}
+
+```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
+knitr::include_graphics("images/Hurst_MA_July2020.jpg")
+```
+
+<br>
+Hi There! I do research on human cognitive development. I'm interested in understanding how children and adults think and learn by studying what kind of information they pay attention to and how they integrate different pieces of information to form relations. 
+
+I currently work as a postdoctoral scholar at the University of Chicago, where I'm working on several projects funded by an NICHD K99 grant on the cognitive and developmental factors that support our ability to reason about proportional information.
+
+:::
+
+
+
+`r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1)
+
+`r fa("envelope")` hurstm@uchicago.edu
+
+**OSF** [osf.io/ukhsz](https://osf.io/ukhsz)
+
+`r fa("file")` [Download CV](files/HURST_CV_2022Jan19.pdf)

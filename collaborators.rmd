@@ -1,0 +1,112 @@
+---
+title: "Collaborators"
+type: "inverse"
+---
+
+I'm fortunate enough to collaborate with some great folks on different projects, see more about them and their research below. 
+
+<div class = "row">
+  
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"',echo=FALSE}
+knitr::include_graphics("images/StevePiantadosi.jpeg")
+```
+<center>
+[Steve Piantadosi](http://colala.berkeley.edu/people/piantadosi/)
+<br>University of California, Berkeley
+</center>
+</div>
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/SusanLevine.jpeg")
+```
+<center>
+[Susan Levine](https://psychology.uchicago.edu/directory/susan-c-levine)
+<br>University of Chicago
+</center>
+</div>
+
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/NadiaChernyak.png")
+```
+<center>
+[Nadia Chernyak](https://www.dosclab.com/personnel)
+<br>University of California Irvine
+</center>
+
+</div>
+</div>
+
+<br>
+<br>
+
+<div class = "row">
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"',echo=FALSE}
+knitr::include_graphics("images/JakeButts.jpeg")
+```
+<center>
+[Jake Butts](https://psychology.uchicago.edu/directory/jacob-butts)
+<br>University of Chicago
+</center>
+</div>
+  
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/MaddyOswald.png")
+```
+<center>
+[Maddy Oswald](https://www.madeleineoswald.com/)
+<br>University of Chicago
+</center>
+</div>
+
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/ClaireBergey.jpg")
+```
+<center>
+[Claire Bergey](https://clairebergey.net)
+<br>University of Chicago
+</center>
+
+</div>
+</div>
+
+<br>
+<br>
+
+<div class = "row">
+
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/SarahEason.jpg")
+```
+<center>
+[Sarah Eason](https://www.purdue.edu/hhs/hdfs/directory/faculty/eason_sarah.html)
+<br>Purdue University
+</center>
+</div>
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/SaraCordes.jpeg")
+```
+<center>
+[Sara Cordes](https://sites.bc.edu/sara-cordes/infant-and-child-cognition-lab-at-boston-college/)
+<br>Boston College
+</center>
+</div>
+
+</div>
+
+
+<br>
+<br>
+

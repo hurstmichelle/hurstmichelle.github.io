@@ -1,0 +1,22 @@
+name: "mah-website"
+output_dir: "."
+navbar:
+  title: "Michelle A. Hurst"
+  type: "inverse"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Collaborators"
+      href: collaborators.html
+  right: 
+    - icon: fa-envelope fa-lg
+      href: mailto:<hurstm@uchicago.edu>
+    - icon: fa-brands fa-twitter
+      href: https://twitter.com/michelleahurst1
+output:
+  html_document:
+    theme: readable
