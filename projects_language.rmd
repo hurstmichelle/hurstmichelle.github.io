@@ -37,7 +37,7 @@ Another line of work looks at children's interpretation of relational language -
 <div class = "col-md-4">
 [![Baby holding a book about probability](images/E_Probability.jpg)](projects_strategies.html)
 <center>
-<strong>Strategies for Proportion Judgements</strong>
+<strong>[Strategies for Proportion Judgements](projects_strategies.html)</strong>
 </center>
 
 </div>
@@ -45,15 +45,10 @@ Another line of work looks at children's interpretation of relational language -
 
 [![Baby holding a book about bayesian probability](images/E_Bayesian.jpg)](projects_processes.html)
 <center>
-<strong>Process Models of Proportional Reasoning</strong>
+<strong>[Process Models of Proportional Reasoning](projects_processes.html)</strong>
 </center>
 </div>
 
-<div class = "col-md-4">
-[![Baby holding a book about ABCs of math](images/E_book.jpg)](projects_language.html)
-<center>
-<strong>Mathematical Language and Symbols</strong>
-</center>
 
 </div>
 </div>

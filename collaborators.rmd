@@ -3,7 +3,7 @@ title: "Collaborators"
 type: "inverse"
 ---
 
-I'm fortunate enough to collaborate with some great folks on different projects, see more about them and their research below. 
+I'm fortunate enough to collaborate with some great folks on different projects. See more about them and their research below. 
 
 <div class = "row">
   
