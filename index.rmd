@@ -6,6 +6,7 @@ title: "Michelle A. Hurst"
 library(fontawesome)
 ```
 
+<div class = "row">
 
 ::: {.floatting}
 
@@ -20,12 +21,16 @@ I currently work as a postdoctoral scholar at the University of Chicago, where I
 
 :::
 
+</div>
 
+<div class = "row">
 
-`r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}
+|       `r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}
+  
+|       `r fa("envelope")` hurstm@uchicago.edu
 
-`r fa("envelope")` hurstm@uchicago.edu
+|       **OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"}
 
-**OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"}
+|       `r fa("file")` [Download CV](files/HURST_CV_2022March25.pdf){target="_blank"}
 
-`r fa("file")` [Download CV](files/HURST_CV_2022March25.pdf){target="_blank"}
+</div>

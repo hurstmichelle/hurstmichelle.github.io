@@ -5,9 +5,12 @@ type: "inverse"
 
 Links to the PDF and the OSF page hosting materials and/or data (when available) are provided below. If the PDF, Materials, or Data are not listed below, please reach out directly (hurstm@uchicago.edu). 
 
-Also, although I try to keep this list updated, additional information can be found on [Google Scholar](https://scholar.google.com/citations?user=cLZiGjcAAAAJ&hl=en&oi=ao)
+Also, although I try to keep this list updated, additional information can be found on [Google Scholar](https://scholar.google.com/citations?user=cLZiGjcAAAAJ&hl=en&oi=ao){target="_blank"}
 
 **2022**
+
+Hurst, M. A. Butts, J. R. & Levine, S. C. (2022). Connecting Symbolic Fractions to Continuous
+Proportion Using a Fraction Card Game. In press at Developmental Psychology.[[PDF](manuscripts/HurstButtsLevine_FracCardGame_DevPsych2022.pdf)] [[OSF](https://osf.io/ths6m/)]
 
 Hurst, M. A., Wong, A., Gordon, R., Alam, A., & Cordes, S. (2022). Children’s gesture use provides insight into proportional reasoning strategies. Journal of Experimental Child Psychology, 214, 105277. https://doi.org/10.1016/j.jecp.2021.105277 [[PDF](manuscripts/Hurstetal_ProportionGestures_2022JECP.pdf)] [[OSF](https://osf.io/43p5g/)]
 
@@ -22,6 +25,8 @@ Hurst, M. A., Boyer, T. W., & Cordes, S. (2021). Spontaneous and directed attent
 Hurst, M. A., Shaw, A., Chernyak, N., & Levine, S. C. (2020). Giving a larger amount or a larger proportion: Stimulus format impacts children’s social evaluations. Developmental Psychology, 56(12), 2212–2222. https://doi.org/10.1037/dev0001121 [[PDF](mmanuscripts/Hurstetal2020_PropSharing_DevPsych.pdf)] [[OSF](https://osf.io/5g34d/)]
 
 Hurst, M. A., Massaro, M., & Cordes, S. (2020). Fraction magnitude: Mapping between symbolic and spatial representations of proportion. Journal of Numerical Cognition, 6(2), 204–230. https://doi.org/10.5964/jnc.v6i2.285 [[PDF](https://jnc.psychopen.eu/index.php/jnc/article/view/5901)] [[OSF](https://osf.io/eycdk/)]
+
+Savelkouls, S., Hurst, M. A., & Cordes, S. (2020). Relative Salience of Number: Preschoolers’ Number Knowledge Relates to Spontaneous Focusing on Number for Small, but not Large, Sets, Developmental Psychology, 56(10), 1879. https://doi.org/10.1037/dev0001099 [[PDF](manuscripts/SavelkoulsHurstCordes_SFONR_DevPsych2020.pdf)]
 
 **2019**
 

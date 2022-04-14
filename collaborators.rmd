@@ -3,7 +3,7 @@ title: "Collaborators"
 type: "inverse"
 ---
 
-I'm fortunate enough to collaborate with some great folks on different projects. See more about them and their research below. 
+I collaborate with some great folks on different projects. See more about them and their research below. 
 
 <div class = "row">
   
@@ -82,6 +82,17 @@ knitr::include_graphics("images/ClaireBergey.jpg")
 <br>
 
 <div class = "row">
+
+<div class = "col-md-4">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/SteveFerrigno.jpeg")
+```
+<center>
+[Steve Ferrigno]( https://www.sferrigno.com/)
+<br>Harvard University
+<br>(soon to be University of Wisconsin Madison)
+</center>
+</div>
 
 
 <div class = "col-md-4">
