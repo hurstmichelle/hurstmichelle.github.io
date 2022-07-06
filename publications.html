@@ -13,24 +13,38 @@
 
 <title>Publications</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -43,32 +57,8 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 
 
@@ -78,10 +68,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -98,40 +84,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 66px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h2 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h3 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h4 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h5 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
-.section h6 {
-  padding-top: 71px;
-  margin-top: -71px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -159,7 +121,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -171,7 +133,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -182,10 +144,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -197,7 +172,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -264,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -304,7 +278,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -313,35 +287,141 @@ $(document).ready(function () {
 </div>
 
 
-<p>Links to the PDF and the OSF page hosting materials and/or data (when available) are provided below. If the PDF, Materials, or Data are not listed below, please reach out directly (<a href="mailto:hurstm@uchicago.edu" class="email">hurstm@uchicago.edu</a>).</p>
-<p>Also, although I try to keep this list updated, additional information can be found on <a href="https://scholar.google.com/citations?user=cLZiGjcAAAAJ&amp;hl=en&amp;oi=ao" target="_blank">Google Scholar</a></p>
+<p>Links to the PDF and the OSF page hosting materials and/or data (when
+available) are provided below. If the PDF, Materials, or Data are not
+listed below, please reach out directly (<a
+href="mailto:hurstm@uchicago.edu"
+class="email">hurstm@uchicago.edu</a>).</p>
+<p>Also, although I try to keep this list updated, additional
+information can be found on <a
+href="https://scholar.google.com/citations?user=cLZiGjcAAAAJ&amp;hl=en&amp;oi=ao"
+target="_blank">Google Scholar</a></p>
 <p><strong>2022</strong></p>
-<p>Wagge, J., Hurst, M. A., Brandt, M., Lazarevic, L., Legate, N., Grahe, J. (2022). Teaching Research in Principle and in Practice: What Do Psychology Instructors Think of Research Projects in Their Courses? Psychology Learning and Teaching.</p>
-<p>Hurst, M. A. &amp; Levine, S. C. (2022). Children’s Understanding of Most is Dependent on Context. Cognition.[<a href="manuscripts/HurstLevine_Most_Cognition2022.pdf">PDF</a>] [<a href="https://osf.io/vhj5q/">OSF</a>]</p>
-<p>Hurst, M. A. Butts, J. R. &amp; Levine, S. C. (2022). Connecting Symbolic Fractions to Continuous Proportion Using a Fraction Card Game. In press at Developmental Psychology.[<a href="manuscripts/HurstButtsLevine_FracCardGame_DevPsych2022.pdf">PDF</a>] [<a href="https://osf.io/ths6m/">OSF</a>]</p>
-<p>Hurst, M. A., Wong, A., Gordon, R., Alam, A., &amp; Cordes, S. (2022). Children’s gesture use provides insight into proportional reasoning strategies. Journal of Experimental Child Psychology, 214, 105277. <a href="https://doi.org/10.1016/j.jecp.2021.105277" class="uri">https://doi.org/10.1016/j.jecp.2021.105277</a> [<a href="manuscripts/Hurstetal_ProportionGestures_2022JECP.pdf">PDF</a>] [<a href="https://osf.io/43p5g/">OSF</a>]</p>
-<p>Braithwaite, D. W., McMullen, J., &amp; Hurst, M. A. (2022). Cross-notation knowledge of fractions and decimals. Journal of Experimental Child Psychology, 213, 105210. <a href="https://doi.org/10.1016/j.jecp.2021.105210" class="uri">https://doi.org/10.1016/j.jecp.2021.105210</a> [<a href="manuscripts/Braithwaiteetal_CrossNotation_JECP2022.pdf">PDF</a>]</p>
+<p>Hurst, M. A., Green, A., Eason, S.H., Claessens, A., &amp; Levine, S.
+C. (2022). Children’s Understanding of Relational Language for Quantity
+Comparisons. Cognitive Development. [<a
+href="manuscripts/Hurstetal_RelLang_CogDev2022.pdf">PDF</a>] [<a
+href="https://osf.io/e9y76/">OSF</a>]</p>
+<p>Wagge, J., Hurst, M. A., Brandt, M., Lazarevic, L., Legate, N.,
+Grahe, J. (2022). Teaching Research in Principle and in Practice: What
+Do Psychology Instructors Think of Research Projects in Their Courses?
+Psychology Learning and Teaching.</p>
+<p>Hurst, M. A. &amp; Levine, S. C. (2022). Children’s Understanding of
+Most is Dependent on Context. Cognition.[<a
+href="manuscripts/HurstLevine_Most_Cognition2022.pdf">PDF</a>] [<a
+href="https://osf.io/vhj5q/">OSF</a>]</p>
+<p>Hurst, M. A. Butts, J. R. &amp; Levine, S. C. (2022). Connecting
+Symbolic Fractions to Continuous Proportion Using a Fraction Card Game.
+In press at Developmental Psychology.[<a
+href="manuscripts/HurstButtsLevine_FracCardGame_DevPsych2022.pdf">PDF</a>]
+[<a href="https://osf.io/ths6m/">OSF</a>]</p>
+<p>Hurst, M. A., Wong, A., Gordon, R., Alam, A., &amp; Cordes, S.
+(2022). Children’s gesture use provides insight into proportional
+reasoning strategies. Journal of Experimental Child Psychology, 214,
+105277. <a href="https://doi.org/10.1016/j.jecp.2021.105277"
+class="uri">https://doi.org/10.1016/j.jecp.2021.105277</a> [<a
+href="manuscripts/Hurstetal_ProportionGestures_2022JECP.pdf">PDF</a>]
+[<a href="https://osf.io/43p5g/">OSF</a>]</p>
+<p>Braithwaite, D. W., McMullen, J., &amp; Hurst, M. A. (2022).
+Cross-notation knowledge of fractions and decimals. Journal of
+Experimental Child Psychology, 213, 105210. <a
+href="https://doi.org/10.1016/j.jecp.2021.105210"
+class="uri">https://doi.org/10.1016/j.jecp.2021.105210</a> [<a
+href="manuscripts/Braithwaiteetal_CrossNotation_JECP2022.pdf">PDF</a>]</p>
 <p><strong>2021</strong></p>
-<p>Hurst, M. A., Boyer, T. W., &amp; Cordes, S. (2021). Spontaneous and directed attention to number and proportion. Journal of Experimental Psychology: Learning, Memory, and Cognition. <a href="https://doi.org/10.1037/xlm0001084" class="uri">https://doi.org/10.1037/xlm0001084</a> [<a href="manuscripts/HurstBoyerCordes_NumProp_2021JEPLMC.pdf">PDF</a>] [<a href="https://osf.io/56r8z/">OSF</a>]</p>
+<p>Hurst, M. A., Boyer, T. W., &amp; Cordes, S. (2021). Spontaneous and
+directed attention to number and proportion. Journal of Experimental
+Psychology: Learning, Memory, and Cognition. <a
+href="https://doi.org/10.1037/xlm0001084"
+class="uri">https://doi.org/10.1037/xlm0001084</a> [<a
+href="manuscripts/HurstBoyerCordes_NumProp_2021JEPLMC.pdf">PDF</a>] [<a
+href="https://osf.io/56r8z/">OSF</a>]</p>
 <p><strong>2020</strong></p>
-<p>Hurst, M. A., Shaw, A., Chernyak, N., &amp; Levine, S. C. (2020). Giving a larger amount or a larger proportion: Stimulus format impacts children’s social evaluations. Developmental Psychology, 56(12), 2212–2222. <a href="https://doi.org/10.1037/dev0001121" class="uri">https://doi.org/10.1037/dev0001121</a> [<a href="mmanuscripts/Hurstetal2020_PropSharing_DevPsych.pdf">PDF</a>] [<a href="https://osf.io/5g34d/">OSF</a>]</p>
-<p>Hurst, M. A., Massaro, M., &amp; Cordes, S. (2020). Fraction magnitude: Mapping between symbolic and spatial representations of proportion. Journal of Numerical Cognition, 6(2), 204–230. <a href="https://doi.org/10.5964/jnc.v6i2.285" class="uri">https://doi.org/10.5964/jnc.v6i2.285</a> [<a href="https://jnc.psychopen.eu/index.php/jnc/article/view/5901">PDF</a>] [<a href="https://osf.io/eycdk/">OSF</a>]</p>
-<p>Savelkouls, S., Hurst, M. A., &amp; Cordes, S. (2020). Relative Salience of Number: Preschoolers’ Number Knowledge Relates to Spontaneous Focusing on Number for Small, but not Large, Sets, Developmental Psychology, 56(10), 1879. <a href="https://doi.org/10.1037/dev0001099" class="uri">https://doi.org/10.1037/dev0001099</a> [<a href="manuscripts/SavelkoulsHurstCordes_SFONR_DevPsych2020.pdf">PDF</a>]</p>
+<p>Hurst, M. A., Shaw, A., Chernyak, N., &amp; Levine, S. C. (2020).
+Giving a larger amount or a larger proportion: Stimulus format impacts
+children’s social evaluations. Developmental Psychology, 56(12),
+2212–2222. <a href="https://doi.org/10.1037/dev0001121"
+class="uri">https://doi.org/10.1037/dev0001121</a> [<a
+href="mmanuscripts/Hurstetal2020_PropSharing_DevPsych.pdf">PDF</a>] [<a
+href="https://osf.io/5g34d/">OSF</a>]</p>
+<p>Hurst, M. A., Massaro, M., &amp; Cordes, S. (2020). Fraction
+magnitude: Mapping between symbolic and spatial representations of
+proportion. Journal of Numerical Cognition, 6(2), 204–230. <a
+href="https://doi.org/10.5964/jnc.v6i2.285"
+class="uri">https://doi.org/10.5964/jnc.v6i2.285</a> [<a
+href="https://jnc.psychopen.eu/index.php/jnc/article/view/5901">PDF</a>]
+[<a href="https://osf.io/eycdk/">OSF</a>]</p>
+<p>Savelkouls, S., Hurst, M. A., &amp; Cordes, S. (2020). Relative
+Salience of Number: Preschoolers’ Number Knowledge Relates to
+Spontaneous Focusing on Number for Small, but not Large, Sets,
+Developmental Psychology, 56(10), 1879. <a
+href="https://doi.org/10.1037/dev0001099"
+class="uri">https://doi.org/10.1037/dev0001099</a> [<a
+href="manuscripts/SavelkoulsHurstCordes_SFONR_DevPsych2020.pdf">PDF</a>]</p>
 <p><strong>2019</strong></p>
-<p>Hurst, M. A., &amp; Cordes, S. (2019). Talking about proportion: Fraction labels impact numerical interference in non‐symbolic proportional reasoning. Developmental Science, e12790. <a href="https://doi.org/10.1111/desc.12790" class="uri">https://doi.org/10.1111/desc.12790</a> [<a href="manuscripts/HurstCordes_TalkProp_DevSci2018.pdf">PDF</a>] [<a href="https://osf.io/z4xhv/">OSF</a>]</p>
-<p>Hurst, M. A., Polinsky, N., Haden, C. A., Levine, S. C., &amp; Uttal, D. H. (2019). Leveraging Research on Informal Learning to Inform Policy on Promoting Early STEM. Social Policy Report, 32(3), 1–33. <a href="https://doi.org/10.1002/sop2.5" class="uri">https://doi.org/10.1002/sop2.5</a> [<a href="https://srcd.onlinelibrary.wiley.com/doi/full/10.1002/sop2.5">PDF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2019). Talking about proportion:
+Fraction labels impact numerical interference in non‐symbolic
+proportional reasoning. Developmental Science, e12790. <a
+href="https://doi.org/10.1111/desc.12790"
+class="uri">https://doi.org/10.1111/desc.12790</a> [<a
+href="manuscripts/HurstCordes_TalkProp_DevSci2018.pdf">PDF</a>] [<a
+href="https://osf.io/z4xhv/">OSF</a>]</p>
+<p>Hurst, M. A., Polinsky, N., Haden, C. A., Levine, S. C., &amp; Uttal,
+D. H. (2019). Leveraging Research on Informal Learning to Inform Policy
+on Promoting Early STEM. Social Policy Report, 32(3), 1–33. <a
+href="https://doi.org/10.1002/sop2.5"
+class="uri">https://doi.org/10.1002/sop2.5</a> [<a
+href="https://srcd.onlinelibrary.wiley.com/doi/full/10.1002/sop2.5">PDF</a>]</p>
 <p><strong>2018</strong></p>
-<p>Hurst, M. A., &amp; Cordes, S. (2018). A systematic investigation of the link between rational number processing and algebra ability. British Journal of Psychology, 109(1), 99–117. <a href="https://doi.org/10.1111/bjop.12244" class="uri">https://doi.org/10.1111/bjop.12244</a> [<a href="manuscripts/HurstCordes_FDNAlg_BriPsych2017.pdf">PDF</a>]</p>
-<p>Hurst, M. A., &amp; Cordes, S. (2018). Attending to relations: Proportional reasoning in 3- to 6-year-old children. Developmental Psychology, 54(3), 428–439. <a href="https://doi.org/10.1037/dev0000440" class="uri">https://doi.org/10.1037/dev0000440</a> [<a href="manuscripts/HurstCordes_AttendRelations_DevPsych2018.pdf">PDF</a>] [<a href="https://osf.io/y2sgd/">OSF</a>]</p>
-<p>Hurst, M. A., &amp; Cordes, S. (2018). Children’s understanding of fraction and decimal symbols and the notation-specific relation to pre-algebra ability. Journal of Experimental Child Psychology, 168, 32–48. <a href="https://doi.org/10.1016/j.jecp.2017.12.003" class="uri">https://doi.org/10.1016/j.jecp.2017.12.003</a> [<a href="manuscripts/HurstCordes_FDNKids_JECP2018.pdf">PDF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2018). A systematic investigation of
+the link between rational number processing and algebra ability. British
+Journal of Psychology, 109(1), 99–117. <a
+href="https://doi.org/10.1111/bjop.12244"
+class="uri">https://doi.org/10.1111/bjop.12244</a> [<a
+href="manuscripts/HurstCordes_FDNAlg_BriPsych2017.pdf">PDF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2018). Attending to relations:
+Proportional reasoning in 3- to 6-year-old children. Developmental
+Psychology, 54(3), 428–439. <a href="https://doi.org/10.1037/dev0000440"
+class="uri">https://doi.org/10.1037/dev0000440</a> [<a
+href="manuscripts/HurstCordes_AttendRelations_DevPsych2018.pdf">PDF</a>]
+[<a href="https://osf.io/y2sgd/">OSF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2018). Children’s understanding of
+fraction and decimal symbols and the notation-specific relation to
+pre-algebra ability. Journal of Experimental Child Psychology, 168,
+32–48. <a href="https://doi.org/10.1016/j.jecp.2017.12.003"
+class="uri">https://doi.org/10.1016/j.jecp.2017.12.003</a> [<a
+href="manuscripts/HurstCordes_FDNKids_JECP2018.pdf">PDF</a>]</p>
 <p><strong>2017</strong></p>
-<p>Hurst, M. A., Anderson, U., &amp; Cordes, S. (2017). Mapping Among Number Words, Numerals, and Nonsymbolic Quantities in Preschoolers. Journal of Cognition and Development, 18(1), 41–62. <a href="https://doi.org/10.1080/15248372.2016.1228653" class="uri">https://doi.org/10.1080/15248372.2016.1228653</a> [<a href="manuscripts/HurstAndersonCordes_NumMap_2017JCD">PDF</a>]</p>
-<p>Hurst, M. A., &amp; Cordes, S. (2017). When being good at math is not enough: How students’ beliefs about the nature of mathematics impact decisions to pursue optional math education. In Understanding Emotions in Mathematical Thinking and Learning (pp. 221–241). Academic Press.</p>
-<p>Hurst, M. A., &amp; Cordes, S. (2017). Working memory strategies during rational number magnitude processing. Journal of Educational Psychology, 109(5), 694–708. <a href="https://doi.org/10.1037/edu0000169" class="uri">https://doi.org/10.1037/edu0000169</a> [<a href="manuscripts/HurstCordes_WM_JEdPsych2017">PDF</a>] [<a href="https://osf.io/3ngq2/">OSF</a>]</p>
+<p>Hurst, M. A., Anderson, U., &amp; Cordes, S. (2017). Mapping Among
+Number Words, Numerals, and Nonsymbolic Quantities in Preschoolers.
+Journal of Cognition and Development, 18(1), 41–62. <a
+href="https://doi.org/10.1080/15248372.2016.1228653"
+class="uri">https://doi.org/10.1080/15248372.2016.1228653</a> [<a
+href="manuscripts/HurstAndersonCordes_NumMap_2017JCD">PDF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2017). When being good at math is not
+enough: How students’ beliefs about the nature of mathematics impact
+decisions to pursue optional math education. In Understanding Emotions
+in Mathematical Thinking and Learning (pp. 221–241). Academic Press.</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2017). Working memory strategies
+during rational number magnitude processing. Journal of Educational
+Psychology, 109(5), 694–708. <a
+href="https://doi.org/10.1037/edu0000169"
+class="uri">https://doi.org/10.1037/edu0000169</a> [<a
+href="manuscripts/HurstCordes_WM_JEdPsych2017">PDF</a>] [<a
+href="https://osf.io/3ngq2/">OSF</a>]</p>
 <p><strong>2016</strong></p>
-<p>Hurst, M. A., &amp; Cordes, S. (2016). Rational-number comparison across notation: Fractions, decimals, and whole numbers. Journal of Experimental Psychology: Human Perception and Performance, 42(2), 281–293. <a href="https://doi.org/10.1037/xhp0000140" class="uri">https://doi.org/10.1037/xhp0000140</a> [<a href="manuscripts/HurstCordes_FDNNum_JEPHPP2016">PDF</a>]</p>
+<p>Hurst, M. A., &amp; Cordes, S. (2016). Rational-number comparison
+across notation: Fractions, decimals, and whole numbers. Journal of
+Experimental Psychology: Human Perception and Performance, 42(2),
+281–293. <a href="https://doi.org/10.1037/xhp0000140"
+class="uri">https://doi.org/10.1037/xhp0000140</a> [<a
+href="manuscripts/HurstCordes_FDNNum_JEPHPP2016">PDF</a>]</p>
 <p><strong>2014</strong></p>
-<p>Hurst, M. A., Leigh Monahan, K., Heller, E., &amp; Cordes, S. (2014). 123s and ABCs: Developmental shifts in logarithmic-to-linear responding reflect fluency with sequence values. Developmental Science, 17(6), 892–904. <a href="https://doi.org/10.1111/desc.12165" class="uri">https://doi.org/10.1111/desc.12165</a></p>
+<p>Hurst, M. A., Leigh Monahan, K., Heller, E., &amp; Cordes, S. (2014).
+123s and ABCs: Developmental shifts in logarithmic-to-linear responding
+reflect fluency with sequence values. Developmental Science, 17(6),
+892–904. <a href="https://doi.org/10.1111/desc.12165"
+class="uri">https://doi.org/10.1111/desc.12165</a></p>
 
 
 
@@ -352,7 +432,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -370,7 +450,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>

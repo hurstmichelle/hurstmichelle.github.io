@@ -31,6 +31,6 @@ I currently work as a postdoctoral scholar at the University of Chicago, where I
 
 |       **OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"}
 
-|       `r fa("file")` [Download CV](files/HURST_CV_2022May13.pdf){target="_blank"}
+|       `r fa("file")` [Download CV](files/HURST_CV_2022July6.pdf){target="_blank"}
 
 </div>
