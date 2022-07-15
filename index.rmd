@@ -6,6 +6,14 @@ title: "Michelle A. Hurst"
 library(fontawesome)
 ```
 
+`r fa("envelope")` hurstm@uchicago.edu &emsp;`r fa("file")` [Download CV](files/HURST_CV_2022July6.pdf){target="_blank"} &emsp;`r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}&emsp;**OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"} 
+
+**Hi There!**
+<br>
+
+I study human cognition, with a special interest in our early cognitive abilities in infancy and early childhood. 
+<br>
+
 <div class = "row">
 
 ::: {.floatting}
@@ -13,11 +21,15 @@ library(fontawesome)
 ```{r out.width='30%', out.extra='style="float:left; padding:10px"', echo=FALSE}
 knitr::include_graphics("images/Hurst_MA_July2020.jpg")
 ```
-
 <br>
-Hi There! I do research on human cognitive development. I'm interested in understanding how children and adults think and learn by studying what kind of information they pay attention to and how they integrate different pieces of information to form relations. 
+In my work, I'm interested in understanding how children and adults think and learn by studying what kind of information they pay attention to and how they integrate different pieces of information to form relations. By studying infants, children, and adults, we can better understand the development of our earliest cognitive abilities and how this development shapes the way we interact with information in the classroom and beyond as children and adults.
 
-I currently work as a postdoctoral scholar at the University of Chicago, where I'm working on several projects funded by an NICHD K99 grant on the cognitive and developmental factors that support our ability to reason about proportional information.
+I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Award on the cognitive and developmental factors that support our ability to reason about proportional information. This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making.
+
+Before joining UChicago, I did my PhD at Boston College with [Dr. Sara Cordes](https://sites.bc.edu/sara-cordes/infant-and-child-cognition-lab-at-boston-college/) and my undergraduate in Mathematics at [McMaster University](https://www.math.mcmaster.ca/). 
+
+
+
 
 :::
 
@@ -25,12 +37,6 @@ I currently work as a postdoctoral scholar at the University of Chicago, where I
 
 <div class = "row">
 
-|       `r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}
-  
-|       `r fa("envelope")` hurstm@uchicago.edu
 
-|       **OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"}
-
-|       `r fa("file")` [Download CV](files/HURST_CV_2022July6.pdf){target="_blank"}
 
 </div>
