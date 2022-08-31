@@ -11,7 +11,7 @@ library(fontawesome)
 **Hi There!**
 <br>
 
-I study human cognition, with a special interest in our early cognitive abilities in infancy and early childhood. 
+I'm a Developmental Scientist studying how the way we think changes across two timescales - in-the-moment context effects and long-term effects of experience. 
 <br>
 
 <div class = "row">
@@ -22,9 +22,9 @@ I study human cognition, with a special interest in our early cognitive abilitie
 knitr::include_graphics("images/Hurst_MA_July2020.jpg")
 ```
 <br>
-In my work, I'm interested in understanding how children and adults think and learn by studying what kind of information they pay attention to and how they integrate different pieces of information to form relations. By studying infants, children, and adults, we can better understand the development of our earliest cognitive abilities and how this development shapes the way we interact with information in the classroom and beyond as children and adults.
+My work is motivated by the observation that human cognition doesn't happen in a vacuum: it often differs across contexts, even within the same individual. The goal of my research program is to uncover the systematic ways in which contextual features evoke different cognitive processes. To do so, I use behavioral experiments, computational models, and a developmental perspective with infants, children, and adults. This approach allows for developing and quantitatively testing more complete cognitive theories that can speak to causal mechanisms, while also providing key insights that can be leveraged to improve children's and adults' learning and behavior. 
 
-I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Award on the cognitive and developmental factors that support our ability to reason about proportional information. This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making.
+I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Pathway to Independence Award investigating the development of proportional reasoning specifically.This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making - using behavioral experiments and computational models. 
 
 Before joining UChicago, I did my PhD at Boston College with [Dr. Sara Cordes](https://sites.bc.edu/sara-cordes/infant-and-child-cognition-lab-at-boston-college/) and my undergraduate in Mathematics at [McMaster University](https://www.math.mcmaster.ca/). 
 
