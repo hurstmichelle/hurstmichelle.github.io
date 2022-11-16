@@ -89,8 +89,7 @@ knitr::include_graphics("images/SteveFerrigno.jpeg")
 ```
 <center>
 [Steve Ferrigno]( https://www.sferrigno.com/)
-<br>Harvard University
-<br>(soon to be University of Wisconsin Madison)
+<br>University of Wisconsin Madison
 </center>
 </div>
 

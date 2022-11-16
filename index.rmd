@@ -6,7 +6,7 @@ title: "Michelle A. Hurst"
 library(fontawesome)
 ```
 
-`r fa("envelope")` hurstm@uchicago.edu &emsp;`r fa("file")` [Download CV](files/HURST_CV_2022July6.pdf){target="_blank"} &emsp;`r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}&emsp;**OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"} 
+`r fa("envelope")` hurstm@uchicago.edu &emsp;`r fa("file")` [Download CV](files/HURST_CV_2022Nov9.pdf){target="_blank"} &emsp;`r fa("twitter")` [michelleahurst1](https://twitter.com/michelleahurst1){target="_blank"}&emsp;**OSF** [osf.io/ukhsz](https://osf.io/ukhsz){target="_blank"} 
 
 **Hi There!**
 <br>
@@ -22,7 +22,7 @@ I'm a Developmental Scientist studying how the way we think changes across two t
 knitr::include_graphics("images/Hurst_MA_July2020.jpg")
 ```
 <br>
-My work is motivated by the observation that human cognition doesn't happen in a vacuum: it often differs across contexts, even within the same individual. The goal of my research program is to uncover the systematic ways in which contextual features evoke different cognitive processes. To do so, I use behavioral experiments, computational models, and a developmental perspective with infants, children, and adults. This approach allows for developing and quantitatively testing more complete cognitive theories that can speak to causal mechanisms, while also providing key insights that can be leveraged to improve children's and adults' learning and behavior. 
+My work is motivated by the observation that human cognition doesn't happen in a vacuum: it often differs between people, over time, and across contexts. I am particularly interested in this last kind of variation, cases where contextual features impact cognitive processing by eliciting different cognitive processes, even within the same individual. To do so, I use behavioral experiments, computational models, and a developmental perspective with infants, children, and adults. This approach allows for developing and quantitatively testing more complete cognitive theories that can speak to causal mechanisms, while also providing key insights that can be leveraged to improve children and adults' learning and behavior. 
 
 I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Pathway to Independence Award investigating the development of proportional reasoning specifically.This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making - using behavioral experiments and computational models. 
 
