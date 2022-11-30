@@ -26,7 +26,6 @@ My work is motivated by the observation that human cognition doesn't happen in a
 
 I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Pathway to Independence Award investigating the development of proportional reasoning specifically.This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making - using behavioral experiments and computational models. 
 
-Before joining UChicago, I did my PhD at Boston College with [Dr. Sara Cordes](https://sites.bc.edu/sara-cordes/infant-and-child-cognition-lab-at-boston-college/) and my undergraduate in Mathematics at [McMaster University](https://www.math.mcmaster.ca/). 
 
 
 

@@ -1,0 +1,44 @@
+---
+title: "About Me"
+type: "inverse"
+---
+
+I grew up in Niagara Falls, Ontario, Canada, where I did competitive Scottish Highland Dancing - including competing at the [World Championships](https://cowalgathering.com/) in Dunoon, Scotland and performing as part of the [Royal Edinburgh Military Tattoo](https://www.edintattoo.co.uk/) in Edinburgh, Scotland. I continued to compete and perform throughout grad school and am still a certified highland dance teacher!
+
+Before joining UChicago, I did my PhD at Boston College with [Dr. Sara Cordes](https://sites.bc.edu/sara-cordes/infant-and-child-cognition-lab-at-boston-college/) and my undergraduate in Mathematics at [McMaster University](https://www.math.mcmaster.ca/). When beginning my math degree, I had no idea I would end up a psychology PhD and my route to get here was atypical and full of serendipitous moments. But, now I get to study how people think about mathematical ideas and the surprising mathematical intuitions held by young kids, while continuing to do math myself through advanced computational and statistical methods. 
+
+Currently, I live in the Hyde Park neighborhood of Chicago, IL with my partner and our daughter. I love being outside hiking and camping, especially in the fall. When the weather is less great, I also like to bake and paint watercolors. Although I don't really dance anymore (but maybe I will again!), I'm an active runner and love the lakeshore path along Lake Michigan.
+
+
+<div class = "row">
+  
+<div class = "col-md-3">
+```{r out.width = "100%",  out.extra='style="align:center"',echo=FALSE}
+knitr::include_graphics("images/dance.jpeg")
+```
+
+</div>
+<div class = "col-md-3">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/family.jpg")
+```
+
+</div>
+<div class = "col-md-3">
+```{r out.width = "100%",  out.extra='style="align:center"', echo=FALSE}
+knitr::include_graphics("images/hike.jpg")
+```
+
+</div>
+<div class = "col-md-3">
+```{r out.width = "100%",  out.extra='style="align:center"',echo=FALSE}
+knitr::include_graphics("images/run5k.jpg")
+```
+</div>
+
+</div>
+<br>
+
+  
+
+
