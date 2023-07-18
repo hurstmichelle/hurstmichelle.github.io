@@ -24,7 +24,9 @@ knitr::include_graphics("images/Hurst_MA_July2020.jpg")
 <br>
 My work is motivated by the observation that human cognition doesn't happen in a vacuum: it often differs between people, over time, and across contexts. I am particularly interested in variation across contexts; cases where contextual features impact cognitive processing by eliciting different cognitive processes, even within the same individual. To investigate these questions, I use behavioral experiments, computational models, and a developmental perspective with infants, children, and adults. This approach allows for developing and quantitatively testing more complete cognitive theories that can speak to causal mechanisms, while also providing key insights that can be leveraged to improve children and adults' learning and behavior. 
 
-I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Pathway to Independence Award investigating the development of proportional reasoning specifically.This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making - using behavioral experiments and computational models. 
+I currently work as a postdoctoral scholar at the [University of Chicago](https://cogdevlab.uchicago.edu/), where I'm working on several projects funded by an NICHD K99 Pathway to Independence Award investigating the development of proportional reasoning specifically. This project studies infants, children, and adults across a range of proportional reasoning domains - from basic perceptual discrimination to decision making - using behavioral experiments and computational models. 
+
+In Fall 2023 I'll be starting as an Assistant Professor at Rutgers University, in both the [Department of Psychology](https://psych.rutgers.edu/) and the [Center for Cognitive Science](https://ruccs.rutgers.edu/). Lab website and details coming soon!
 
 
 
