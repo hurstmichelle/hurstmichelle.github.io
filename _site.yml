@@ -12,6 +12,8 @@ navbar:
       href: publications.html
     - text: "Collaborators"
       href: collaborators.html
+    - text: "Teaching"
+      href: teaching.html
     - text: "About Me"
       href: AboutMe.html
   right: 

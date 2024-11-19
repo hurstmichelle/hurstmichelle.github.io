@@ -3,6 +3,8 @@ title: "Publications"
 type: "inverse"
 ---
 
+**Note**: I no longer keep this list updated. New papers from me and my lab can be found on my lab website: https://www.thequadlab.com/publication/
+
 Links to the PDF and the OSF page hosting materials and/or data (when available) are provided below. If the PDF, Materials, or Data are not listed below, please reach out directly.
 
 Also, although I try to keep this list updated, additional information can be found on [Google Scholar](https://scholar.google.com/citations?user=cLZiGjcAAAAJ&hl=en&oi=ao){target="_blank"}

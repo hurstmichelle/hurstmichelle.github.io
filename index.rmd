@@ -24,11 +24,10 @@ knitr::include_graphics("images/Hurst_MA_July2020.jpg")
 <br>
 My work is motivated by the observation that human cognition doesn't happen in a vacuum: it often differs between people, over time, and across contexts. I am particularly interested in variation across contexts; cases where contextual features impact cognitive processing by eliciting different cognitive processes, even within the same individual. To investigate these questions, I use behavioral experiments, computational models, and a developmental perspective with infants, children, and adults. This approach allows for developing and quantitatively testing more complete cognitive theories that can speak to causal mechanisms, while also providing key insights that can be leveraged to improve children and adults' learning and behavior. 
 
-I am an [Assistant Professor at Rutgers University](https://psych.rutgers.edu/people/chair-v-cs/faculty-profile/1389-hurst-michelle), in both the [Department of Psychology](https://psych.rutgers.edu/) and the [Center for Cognitive Science](https://ruccs.rutgers.edu/). 
+I am an [Assistant Professor at Rutgers University](https://psych.rutgers.edu/people/chair-v-cs/faculty-profile/1389-hurst-michelle), in both the [Department of Psychology](https://psych.rutgers.edu/) and the [Center for Cognitive Science](https://ruccs.rutgers.edu/). I am the PI of the [Quantitative Development Lab](https://www.thequadlab.com/).
 
 
-**Recruiting Students and Postdocs**: I will be recruiting Graduate Students this cycle, to begin Fall 2024. I will also likely be hiring a postdoc to begin Spring/Summer/Fall 2024. Please reach out to learn more. 
-
+**Recruiting Students and Postdocs**: I will be recruiting Graduate Students this cycle, to begin Fall 2025. Learn more about how to join my lab on my lab website: https://www.thequadlab.com/join/
 :::
 
 </div>

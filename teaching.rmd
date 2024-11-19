@@ -1,0 +1,37 @@
+---
+title: "Teaching"
+type: "inverse"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+At Rutgers University-New Brunswick, I teach for both the Psychology Major and the Cognitive Science Major. I'm currently teaching one course per semester, approximately alternating between the two. I also take independent study students in my lab to get course credit for getting involved in research (see my lab website for more on this).
+
+**Currently Teaching**:
+
+From Data to Science Communication in R (Advanced Topics II, 01:185:412)
+Cognitive Science, Undergraduate
+Fall 2024
+[Syllabus](syllabi/Hurst_D2SC_185-412-2_Fa24.pdf)
+
+<br>
+<br>
+
+**Past Teaching**:
+
+Infant and Child Cognition (01:830:331:02)
+Psychology, Undergraduate
+Spring 2024
+[Syllabus](syllabi/331_02_InfantAndChildDevelopment_Hurst_2023-01-12.pdf)
+
+<br>
+<br>
+
+From Data to Manuscript in R (Advanced Topics II, 01:185:412)
+Cognitive Science, Undergraduate
+Fall 2023
+
+
