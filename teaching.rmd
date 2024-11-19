@@ -12,10 +12,12 @@ At Rutgers University-New Brunswick, I teach for both the Psychology Major and t
 
 **Currently Teaching**:
 
-From Data to Science Communication in R (Advanced Topics II, 01:185:412)
-Cognitive Science, Undergraduate
-Fall 2024
-[Syllabus](syllabi/Hurst_D2SC_185-412-2_Fa24.pdf)
+From Data to Science Communication in R
+
+* Advanced Topics II, 01:185:412
+* Cognitive Science, Undergraduate
+* Fall 2024 
+* [Syllabus](syllabi/Hurst_D2SC_185-412-2_Fa24.pdf)
 
 <br>
 <br>
@@ -23,15 +25,15 @@ Fall 2024
 **Past Teaching**:
 
 Infant and Child Cognition (01:830:331:02)
-Psychology, Undergraduate
-Spring 2024
-[Syllabus](syllabi/331_02_InfantAndChildDevelopment_Hurst_2023-01-12.pdf)
 
-<br>
-<br>
+* Psychology, Undergraduate
+* Spring 2024
+* [Syllabus](syllabi/331_02_InfantAndChildDevelopment_Hurst_2023-01-12.pdf)
 
-From Data to Manuscript in R (Advanced Topics II, 01:185:412)
-Cognitive Science, Undergraduate
-Fall 2023
+From Data to Manuscript in R
+
+* Advanced Topics II, 01:185:412
+* Cognitive Science, Undergraduate
+* Fall 2023
 
 
